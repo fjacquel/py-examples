@@ -1,0 +1,26 @@
+{
+  "variables" : {
+    "title" : "Hello template replacement!",
+    "english" : true,
+    "german" : false
+  },
+
+  "images" : {
+    "dilbert_pic" : [ "c:/temp/download.jpg", 150 ]
+  },
+
+  "urls" : {
+    "dilber_url" : [ "Image taken here ...", "https://henrykotula.com/tag/sales-are-dropping-like-a-rock/" ]
+  },
+
+  "tables" : {
+    "random" : {
+      "col_labels" : ["fruit", "vegetable", "stone", "thing"],
+      "tbl_contents": [
+        {"label": "yellow", "cols": ["banana", "capsicum", "pyrite", "taxi"]},
+        {"label": "red",    "cols": ["apple", "tomato", "cinnabar", "doubledecker"]},
+        {"label": "green",  "cols": ["guava", "cucumber", "aventurine", "card"]}
+      ]
+    }
+  }
+}
